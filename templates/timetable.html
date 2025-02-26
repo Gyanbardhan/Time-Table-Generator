@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Generated Timetable</h2>
+{% for key, grid in timetable.items() %}
+  {% set branch = key[0] %}
+  {% set semester = key[1] %}
+  {% set section = key[2] %}
+  <h3>Branch {{ branch }},  {{ semester }} Year,  {{ section }}</h3>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Day</th>
+        {% for slot in time_slots %}
+          <th>{{ slot }}</th>
+        {% endfor %}
+      </tr>
+    </thead>
+    <tbody>
+      {% for day, slots in grid.items() %}
+      <tr>
+        <td>{{ day }}</td>
+        {% for slot in time_slots %}
+          <td>{{ slots[slot] }}</td>
+        {% endfor %}
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endfor %}
+<a href="{{ url_for('index') }}" class="btn btn-secondary">Back</a>
+{% endblock %}

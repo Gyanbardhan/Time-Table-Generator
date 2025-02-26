@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Subject-Wise Timetable</h2>
+{% for section_key, subjects in schedule.items() %}
+  <h3>{{ section_key.replace('_', ' ') }}</h3>
+  {% for subject, grid in subjects.items() %}
+    <h4>Subject: {{ subject }}</h4>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Day</th>
+          {% for slot in time_slots %}
+          <th>{{ slot }}</th>
+          {% endfor %}
+        </tr>
+      </thead>
+      <tbody>
+        {% for day, slots in grid.items() %}
+        <tr>
+          <td>{{ day }}</td>
+          {% for slot in time_slots %}
+            <td>{{ slots[slot] }}</td>
+          {% endfor %}
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% endfor %}
+  <hr>
+{% endfor %}
+<a href="{{ url_for('index') }}" class="btn btn-secondary">Back</a>
+{% endblock %}

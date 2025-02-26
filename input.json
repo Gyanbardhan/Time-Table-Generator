@@ -1,0 +1,1633 @@
+{
+  "teachers": [
+    {
+      "name": "Dr. Smith",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 23,
+      "subjects_can_teach": [
+        "Mathematics I",
+        "Physics",
+        "Introduction to Engineering",
+        "Basic Electrical Engineering",
+        "English Communication",
+        "Workshop"
+      ]
+    },
+    {
+      "name": "Dr. Yogi",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 25,
+      "subjects_can_teach": [
+        "Programming Fundamentals",
+        "Data Structures",
+        "Discrete Mathematics",
+        "Computer Organization",
+        "Data Structures and Algorithms",
+        "Operating Systems",
+        "Algorithms",
+        "Software Engineering",
+        "Database Systems",
+        "Theory of Computation",
+        "Signals and Systems",
+        "Environmental Studies",
+        "Project"
+      ]
+    },
+    {
+      "name": "Dr. Amit",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 21,
+      "subjects_can_teach": [
+        "Digital Logic",
+        "Object Oriented Programming",
+        "Programming in C",
+        "Basic Electronics",
+        "Analog Electronics"
+      ]
+    },
+    {
+      "name": "Dr. Rajnath",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 24,
+      "subjects_can_teach": [
+        "Circuit Theory",
+        "Digital Electronics",
+        "Microprocessors",
+        "Control Systems",
+        "Circuits"
+      ]
+    },
+    {
+      "name": "Dr. Rajnath",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 24,
+      "subjects_can_teach": [
+        "Circuit Theory",
+        "Digital Electronics",
+        "Microprocessors",
+        "Control Systems"
+      ]
+    },
+    {
+      "name": "Dr. Johnson",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 22,
+      "subjects_can_teach": [
+        "Electrical Machines",
+        "Power Systems",
+        "Control Systems",
+        "Switchgear and Protection"
+      ]
+    },
+    {
+      "name": "Dr. Williams",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 20,
+      "subjects_can_teach": [
+        "Workshop",
+        "Engineering Drawing",
+        "Surveying"
+      ]
+    },
+    {
+      "name": "Dr. Singh",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 25,
+      "subjects_can_teach": [
+        "Mathematics I",
+        "Mathematics II",
+        "Discrete Mathematics",
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Dr. Kumar",
+      "available_times": [
+        "9:00-10:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00"
+      ],
+      "total_classes": 23,
+      "subjects_can_teach": [
+        "Chemistry",
+        "Organic Chemistry",
+        "Physical Chemistry",
+        "Chemical Process Calculations"
+      ]
+    },
+    {
+      "name": "Dr. Thomas",
+      "available_times": [
+        "10:00-11:00",
+        "11:00-12:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 20,
+      "subjects_can_teach": [
+        "Fluid Mechanics",
+        "Heat Transfer",
+        "Thermodynamics",
+        "Machine Design"
+      ]
+    },
+    {
+      "name": "Dr. Sharma",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "2:00-3:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 24,
+      "subjects_can_teach": [
+        "Engineering Mechanics",
+        "Structural Analysis",
+        "Concrete Technology"
+      ]
+    },
+    {
+      "name": "Dr. Gupta",
+      "available_times": [
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 25,
+      "subjects_can_teach": [
+        "Computer Networks",
+        "Cloud Computing",
+        "Cyber Security",
+        "Database Systems"
+      ]
+    },
+    {
+      "name": "Dr. Patel",
+      "available_times": [
+        "9:00-10:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 22,
+      "subjects_can_teach": [
+        "Web Technologies",
+        "Information Systems",
+        "Programming Fundamentals"
+      ]
+    },
+    {
+      "name": "Dr. Kapoor",
+      "available_times": [
+        "9:00-10:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 25,
+      "subjects_can_teach": [
+        "Mathematics I",
+        "Mathematics II",
+        "Engineering Mechanics",
+        "Probability"
+      ]
+    },
+    {
+      "name": "Dr. Reddy",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 21,
+      "subjects_can_teach": [
+        "Introduction to IT",
+        "Software Engineering",
+        "Digital Logic"
+      ]
+    },
+    {
+      "name": "Dr. Allen",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 20,
+      "subjects_can_teach": [
+        "VLSI Design",
+        "Embedded Systems",
+        "Microprocessors"
+      ]
+    },
+    {
+      "name": "Dr. Baker",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 23,
+      "subjects_can_teach": [
+        "Robotics",
+        "Control Systems",
+        "Automation"
+      ]
+    },
+    {
+      "name": "Dr. Carter",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 24,
+      "subjects_can_teach": [
+        "Environmental Engineering",
+        "Sustainable Engineering",
+        "Project Management"
+      ]
+    },
+    {
+      "name": "Dr. Davis",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 22,
+      "subjects_can_teach": [
+        "Manufacturing Processes",
+        "Material Science",
+        "CAD/CAM"
+      ]
+    },
+    {
+      "name": "Dr. Evans",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 21,
+      "subjects_can_teach": [
+        "Communication Systems",
+        "Digital Signal Processing",
+        "Analog Electronics"
+      ]
+    },
+    {
+      "name": "Dr. Ford",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 25,
+      "subjects_can_teach": [
+        "Electromagnetic Fields",
+        "Signal Processing",
+        "Control Systems"
+      ]
+    },
+    {
+      "name": "Dr. Lee",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 22,
+      "subjects_can_teach": [
+        "Data Structures and Algorithms",
+        "Operating Systems",
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Dr. Brown",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 24,
+      "subjects_can_teach": [
+        "Mathematics I",
+        "Mathematics II",
+        "Discrete Mathematics",
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Dr. Taylor",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 20,
+      "subjects_can_teach": [
+        "Computer Networks",
+        "Cyber Security",
+        "Cloud Computing"
+      ]
+    },
+    {
+      "name": "Dr. White",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 23,
+      "subjects_can_teach": [
+        "Digital Logic",
+        "Embedded Systems",
+        "VLSI Design"
+      ]
+    },
+    {
+      "name": "Dr. Green",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 25,
+      "subjects_can_teach": [
+        "Robotics",
+        "Control Systems",
+        "Automation"
+      ]
+    },
+    {
+      "name": "Dr. Black",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 21,
+      "subjects_can_teach": [
+        "Circuit Theory",
+        "Digital Electronics",
+        "Microprocessors"
+      ]
+    },
+    {
+      "name": "Dr. Martin",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 24,
+      "subjects_can_teach": [
+        "Engineering Mechanics",
+        "Structural Analysis"
+      ]
+    },
+    {
+      "name": "Dr. King",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 22,
+      "subjects_can_teach": [
+        "Fluid Mechanics",
+        "Heat Transfer",
+        "Thermodynamics"
+      ]
+    },
+    {
+      "name": "Dr. Wright",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 20,
+      "subjects_can_teach": [
+        "Object Oriented Programming",
+        "Programming in C"
+      ]
+    },
+    {
+      "name": "Dr. Scott",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 23,
+      "subjects_can_teach": [
+        "Database Systems",
+        "Software Engineering",
+        "Web Technologies"
+      ]
+    },
+    {
+      "name": "Dr. Adams",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 22,
+      "subjects_can_teach": [
+        "Introduction to IT",
+        "Information Systems",
+        "Computer Organization"
+      ]
+    },
+    {
+      "name": "Dr. Baker2",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 24,
+      "subjects_can_teach": [
+        "Electromagnetic Fields",
+        "Signal Processing"
+      ]
+    },
+    {
+      "name": "Dr. Collins",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 21,
+      "subjects_can_teach": [
+        "Chemical Process Calculations",
+        "Organic Chemistry",
+        "Physical Chemistry"
+      ]
+    },
+    {
+      "name": "Dr. Murphy",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 25,
+      "subjects_can_teach": [
+        "Manufacturing Processes",
+        "Material Science",
+        "CAD/CAM",
+        "Automobile Engineering"
+      ]
+    },
+    {
+      "name": "Dr. Reed",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 23,
+      "subjects_can_teach": [
+        "Project Management",
+        "Environmental Engineering",
+        "Project"
+      ]
+    },
+    {
+      "name": "Dr. Foster",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 20,
+      "subjects_can_teach": [
+        "VLSI Design",
+        "Embedded Systems",
+        "Robotics"
+      ]
+    },
+    {
+      "name": "Dr. Barnes",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 22,
+      "subjects_can_teach": [
+        "Programming Fundamentals",
+        "Data Structures"
+      ]
+    },
+    {
+      "name": "Dr. Kelly",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 24,
+      "subjects_can_teach": [
+        "Mathematics I",
+        "Mathematics II",
+        "Probability"
+      ]
+    },
+    {
+      "name": "Dr. Parker",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 23,
+      "subjects_can_teach": [
+        "Control Systems",
+        "Microprocessors",
+        "Digital Signal Processing"
+      ]
+    },
+    {
+      "name": "Dr. Murphy2",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 21,
+      "subjects_can_teach": [
+        "Engineering Drawing",
+        "Workshop",
+        "Surveying",
+        "Project"
+      ]
+    }
+  ],
+  "classrooms": [
+    {
+      "name": "Building A 101",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ]
+    },
+    {
+      "name": "Building A 102",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ]
+    },
+    {
+      "name": "Building B 201",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ]
+    },
+    {
+      "name": "Building B 202",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ]
+    },
+    {
+      "name": "Building C 301",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ]
+    },
+    {
+      "name": "Building C 302",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ]
+    },
+    {
+      "name": "Building D 401",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ]
+    },
+    {
+      "name": "Building D 402",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ]
+    },
+    {
+      "name": "Building E 501",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ]
+    },
+    {
+      "name": "Building E 502",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ]
+    },
+    {
+      "name": "Building F 601",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ]
+    },
+    {
+      "name": "Building G 701",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ]
+    },
+    {
+      "name": "Building H 801",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ]
+    },
+    {
+      "name": "Building I 902",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ]
+    },
+    {
+      "name": "Building J 1001",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ]
+    },
+    {
+      "name": "Building K 1101",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ]
+    },
+    {
+      "name": "Building L 1201",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ]
+    },
+    {
+      "name": "Building L 1202",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ]
+    },
+    {
+      "name": "Building M 1301",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ]
+    },
+    {
+      "name": "Building M 1302",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ]
+    },
+    {
+      "name": "Building N 1401",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ]
+    },
+    {
+      "name": "Building N 1402",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ]
+    },
+    {
+      "name": "Building O 1501",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ]
+    },
+    {
+      "name": "Building O 1502",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ]
+    },
+    {
+      "name": "Building P 1601",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ]
+    },
+    {
+      "name": "Building P 1602",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ]
+    },
+    {
+      "name": "Building Q 1701",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ]
+    },
+    {
+      "name": "Building Q 1702",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ]
+    },
+    {
+      "name": "Building R 1801",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ]
+    },
+    {
+      "name": "Building R 1802",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ]
+    },
+    {
+      "name": "Building S 1901",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ]
+    },
+    {
+      "name": "Building S 1902",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ]
+    }
+  ],
+  "curriculum": {
+    "CSE": {
+      "1st": {
+        "Section A": {
+          "Mathematics I": 4,
+          "Physics": 3,
+          "Introduction to Engineering": 3,
+          "Programming Fundamentals": 3,
+          "Basic Electrical Engineering": 2,
+          "English Communication": 2,
+          "Workshop": 2
+        },
+        "Section B": {
+          "Mathematics I": 4,
+          "Physics": 3,
+          "Introduction to Engineering": 3,
+          "Programming Fundamentals": 3,
+          "Basic Electrical Engineering": 2,
+          "English Communication": 2,
+          "Workshop": 2
+        },
+        "Section C": {
+          "Mathematics I": 4,
+          "Physics": 3,
+          "Introduction to Engineering": 3,
+          "Programming Fundamentals": 3,
+          "Basic Electrical Engineering": 2,
+          "English Communication": 2,
+          "Workshop": 2
+        }
+      },
+      "2nd": {
+        "Section A": {
+          "Mathematics II": 4,
+          "Programming in C": 3,
+          "Digital Logic": 3,
+          "Data Structures": 3,
+          "Chemistry": 2,
+          "Engineering Graphics": 2,
+          "Environmental Studies": 2
+        },
+        "Section B": {
+          "Mathematics II": 4,
+          "Programming in C": 3,
+          "Digital Logic": 3,
+          "Data Structures": 3,
+          "Chemistry": 2,
+          "Engineering Graphics": 2,
+          "Environmental Studies": 2
+        },
+        "Section C": {
+          "Mathematics II": 4,
+          "Programming in C": 3,
+          "Digital Logic": 3,
+          "Data Structures": 3,
+          "Chemistry": 2,
+          "Engineering Graphics": 2,
+          "Environmental Studies": 2
+        }
+      },
+      "3rd": {
+        "Section A": {
+          "Discrete Mathematics": 3,
+          "Object Oriented Programming": 3,
+          "Computer Organization": 3,
+          "Data Structures and Algorithms": 4,
+          "Database Systems": 3,
+          "Operating Systems": 3
+        },
+        "Section B": {
+          "Discrete Mathematics": 3,
+          "Object Oriented Programming": 3,
+          "Computer Organization": 3,
+          "Data Structures and Algorithms": 4,
+          "Database Systems": 3,
+          "Operating Systems": 3
+        },
+        "Section C": {
+          "Discrete Mathematics": 3,
+          "Object Oriented Programming": 3,
+          "Computer Organization": 3,
+          "Data Structures and Algorithms": 4,
+          "Database Systems": 3,
+          "Operating Systems": 3
+        }
+      },
+      "4th": {
+        "Section A": {
+          "Algorithms": 3,
+          "Computer Networks": 3,
+          "Software Engineering": 3,
+          "Theory of Computation": 3,
+          "Microprocessors": 3,
+          "Elective": 2
+        },
+        "Section B": {
+          "Algorithms": 3,
+          "Computer Networks": 3,
+          "Software Engineering": 3,
+          "Theory of Computation": 3,
+          "Microprocessors": 3,
+          "Elective": 2
+        },
+        "Section C": {
+          "Algorithms": 3,
+          "Computer Networks": 3,
+          "Software Engineering": 3,
+          "Theory of Computation": 3,
+          "Microprocessors": 3,
+          "Elective": 2
+        }
+      }
+    },
+    "ECE": {
+      "1st": {
+        "Section A": {
+          "Mathematics I": 4,
+          "Physics": 3,
+          "Basic Electronics": 3,
+          "Circuits": 3,
+          "English Communication": 2,
+          "Workshop": 2
+        },
+        "Section B": {
+          "Mathematics I": 4,
+          "Physics": 3,
+          "Basic Electronics": 3,
+          "Circuits": 3,
+          "English Communication": 2,
+          "Workshop": 2
+        }
+      },
+      "2nd": {
+        "Section A": {
+          "Mathematics II": 4,
+          "Circuit Theory": 3,
+          "Digital Electronics": 3,
+          "Signals and Systems": 3,
+          "Electronics Lab": 2,
+          "Communication Skills": 2
+        },
+        "Section B": {
+          "Mathematics II": 4,
+          "Circuit Theory": 3,
+          "Digital Electronics": 3,
+          "Signals and Systems": 3,
+          "Electronics Lab": 2,
+          "Communication Skills": 2
+        }
+      },
+      "3rd": {
+        "Section A": {
+          "Analog Electronics": 3,
+          "Digital Signal Processing": 3,
+          "Microprocessors": 3,
+          "Control Systems": 3,
+          "Elective": 2
+        },
+        "Section B": {
+          "Analog Electronics": 3,
+          "Digital Signal Processing": 3,
+          "Microprocessors": 3,
+          "Control Systems": 3,
+          "Elective": 2
+        }
+      },
+      "4th": {
+        "Section A": {
+          "Communication Systems": 3,
+          "VLSI Design": 3,
+          "Embedded Systems": 3,
+          "Elective": 2,
+          "Project": 4
+        },
+        "Section B": {
+          "Communication Systems": 3,
+          "VLSI Design": 3,
+          "Embedded Systems": 3,
+          "Elective": 2,
+          "Project": 4
+        }
+      }
+    },
+    "EE": {
+      "1st": {
+        "Section A": {
+          "Mathematics I": 4,
+          "Physics": 3,
+          "Basic Electrical Engineering": 3,
+          "Engineering Mechanics": 3,
+          "English Communication": 2,
+          "Workshop": 2
+        },
+        "Section B": {
+          "Mathematics I": 4,
+          "Physics": 3,
+          "Basic Electrical Engineering": 3,
+          "Engineering Mechanics": 3,
+          "English Communication": 2,
+          "Workshop": 2
+        }
+      },
+      "2nd": {
+        "Section A": {
+          "Mathematics II": 4,
+          "Circuit Theory": 3,
+          "Electrical Machines": 3,
+          "Electronics": 3,
+          "Engineering Drawing": 2
+        },
+        "Section B": {
+          "Mathematics II": 4,
+          "Circuit Theory": 3,
+          "Electrical Machines": 3,
+          "Electronics": 3,
+          "Engineering Drawing": 2
+        }
+      },
+      "3rd": {
+        "Section A": {
+          "Power Systems": 3,
+          "Control Systems": 3,
+          "Digital Electronics": 3,
+          "Measurements": 2,
+          "Elective": 2
+        },
+        "Section B": {
+          "Power Systems": 3,
+          "Control Systems": 3,
+          "Digital Electronics": 3,
+          "Measurements": 2,
+          "Elective": 2
+        }
+      },
+      "4th": {
+        "Section A": {
+          "Electrical Machines II": 3,
+          "High Voltage Engineering": 3,
+          "Switchgear and Protection": 3,
+          "Project": 4
+        },
+        "Section B": {
+          "Electrical Machines II": 3,
+          "High Voltage Engineering": 3,
+          "Switchgear and Protection": 3,
+          "Project": 4
+        }
+      }
+    },
+    "Chemical": {
+      "1st": {
+        "Section A": {
+          "Mathematics I": 4,
+          "Chemistry": 3,
+          "Basic Physics": 3,
+          "Engineering Chemistry": 3,
+          "Engineering Mechanics": 2,
+          "English": 2
+        },
+        "Section B": {
+          "Mathematics I": 4,
+          "Chemistry": 3,
+          "Basic Physics": 3,
+          "Engineering Chemistry": 3,
+          "Engineering Mechanics": 2,
+          "English": 2
+        }
+      },
+      "2nd": {
+        "Section A": {
+          "Mathematics II": 4,
+          "Organic Chemistry": 3,
+          "Physical Chemistry": 3,
+          "Chemical Process Calculations": 3,
+          "Thermodynamics": 2
+        },
+        "Section B": {
+          "Mathematics II": 4,
+          "Organic Chemistry": 3,
+          "Physical Chemistry": 3,
+          "Chemical Process Calculations": 3,
+          "Thermodynamics": 2
+        }
+      },
+      "3rd": {
+        "Section A": {
+          "Fluid Mechanics": 3,
+          "Heat Transfer": 3,
+          "Reaction Engineering": 3,
+          "Process Dynamics": 2,
+          "Elective": 2
+        },
+        "Section B": {
+          "Fluid Mechanics": 3,
+          "Heat Transfer": 3,
+          "Reaction Engineering": 3,
+          "Process Dynamics": 2,
+          "Elective": 2
+        }
+      },
+      "4th": {
+        "Section A": {
+          "Process Control": 3,
+          "Chemical Instrumentation": 3,
+          "Separation Processes": 3,
+          "Project": 4
+        },
+        "Section B": {
+          "Process Control": 3,
+          "Chemical Instrumentation": 3,
+          "Separation Processes": 3,
+          "Project": 4
+        }
+      }
+    },
+    "Civil": {
+      "1st": {
+        "Section A": {
+          "Mathematics I": 4,
+          "Physics": 3,
+          "Chemistry": 3,
+          "Engineering Mechanics": 3,
+          "Surveying": 2,
+          "Drawing": 2
+        },
+        "Section B": {
+          "Mathematics I": 4,
+          "Physics": 3,
+          "Chemistry": 3,
+          "Engineering Mechanics": 3,
+          "Surveying": 2,
+          "Drawing": 2
+        },
+        "Section C": {
+          "Mathematics I": 4,
+          "Physics": 3,
+          "Chemistry": 3,
+          "Engineering Mechanics": 3,
+          "Surveying": 2,
+          "Drawing": 2
+        },
+        "Section D": {
+          "Mathematics I": 4,
+          "Physics": 3,
+          "Chemistry": 3,
+          "Engineering Mechanics": 3,
+          "Surveying": 2,
+          "Drawing": 2
+        }
+      },
+      "2nd": {
+        "Section A": {
+          "Mathematics II": 4,
+          "Strength of Materials": 3,
+          "Building Materials": 3,
+          "Surveying Lab": 2,
+          "Geotechnical Engineering": 3
+        },
+        "Section B": {
+          "Mathematics II": 4,
+          "Strength of Materials": 3,
+          "Building Materials": 3,
+          "Surveying Lab": 2,
+          "Geotechnical Engineering": 3
+        },
+        "Section C": {
+          "Mathematics II": 4,
+          "Strength of Materials": 3,
+          "Building Materials": 3,
+          "Surveying Lab": 2,
+          "Geotechnical Engineering": 3
+        },
+        "Section D": {
+          "Mathematics II": 4,
+          "Strength of Materials": 3,
+          "Building Materials": 3,
+          "Surveying Lab": 2,
+          "Geotechnical Engineering": 3
+        }
+      },
+      "3rd": {
+        "Section A": {
+          "Structural Analysis": 3,
+          "Fluid Mechanics": 3,
+          "Construction Technology": 3,
+          "Concrete Technology": 3,
+          "Elective": 2
+        },
+        "Section B": {
+          "Structural Analysis": 3,
+          "Fluid Mechanics": 3,
+          "Construction Technology": 3,
+          "Concrete Technology": 3,
+          "Elective": 2
+        },
+        "Section C": {
+          "Structural Analysis": 3,
+          "Fluid Mechanics": 3,
+          "Construction Technology": 3,
+          "Concrete Technology": 3,
+          "Elective": 2
+        },
+        "Section D": {
+          "Structural Analysis": 3,
+          "Fluid Mechanics": 3,
+          "Construction Technology": 3,
+          "Concrete Technology": 3,
+          "Elective": 2
+        }
+      },
+      "4th": {
+        "Section A": {
+          "Environmental Engineering": 3,
+          "Transportation Engineering": 3,
+          "Hydraulics": 3,
+          "Project": 4
+        },
+        "Section B": {
+          "Environmental Engineering": 3,
+          "Transportation Engineering": 3,
+          "Hydraulics": 3,
+          "Project": 4
+        },
+        "Section C": {
+          "Environmental Engineering": 3,
+          "Transportation Engineering": 3,
+          "Hydraulics": 3,
+          "Project": 4
+        },
+        "Section D": {
+          "Environmental Engineering": 3,
+          "Transportation Engineering": 3,
+          "Hydraulics": 3,
+          "Project": 4
+        }
+      }
+    },
+    "IT": {
+      "1st": {
+        "Section A": {
+          "Mathematics I": 4,
+          "Physics": 3,
+          "Introduction to IT": 3,
+          "Programming Fundamentals": 3,
+          "English Communication": 2,
+          "Workshop": 2
+        },
+        "Section B": {
+          "Mathematics I": 4,
+          "Physics": 3,
+          "Introduction to IT": 3,
+          "Programming Fundamentals": 3,
+          "English Communication": 2,
+          "Workshop": 2
+        }
+      },
+      "2nd": {
+        "Section A": {
+          "Mathematics II": 4,
+          "Data Structures": 3,
+          "Discrete Mathematics": 3,
+          "Computer Organization": 3,
+          "Environmental Studies": 2
+        },
+        "Section B": {
+          "Mathematics II": 4,
+          "Data Structures": 3,
+          "Discrete Mathematics": 3,
+          "Computer Organization": 3,
+          "Environmental Studies": 2
+        }
+      },
+      "3rd": {
+        "Section A": {
+          "Object Oriented Programming": 3,
+          "Web Technologies": 3,
+          "Database Systems": 3,
+          "Software Engineering": 3,
+          "Elective": 2
+        },
+        "Section B": {
+          "Object Oriented Programming": 3,
+          "Web Technologies": 3,
+          "Database Systems": 3,
+          "Software Engineering": 3,
+          "Elective": 2
+        }
+      },
+      "4th": {
+        "Section A": {
+          "Networking": 3,
+          "Information Systems": 3,
+          "Cyber Security": 3,
+          "Cloud Computing": 3,
+          "Project": 4
+        },
+        "Section B": {
+          "Networking": 3,
+          "Information Systems": 3,
+          "Cyber Security": 3,
+          "Cloud Computing": 3,
+          "Project": 4
+        }
+      }
+    },
+    "Mech": {
+      "1st": {
+        "Section A": {
+          "Mathematics I": 4,
+          "Physics": 3,
+          "Engineering Mechanics": 3,
+          "Workshop Practice": 3,
+          "Drawing": 2
+        },
+        "Section B": {
+          "Mathematics I": 4,
+          "Physics": 3,
+          "Engineering Mechanics": 3,
+          "Workshop Practice": 3,
+          "Drawing": 2
+        }
+      },
+      "2nd": {
+        "Section A": {
+          "Mathematics II": 4,
+          "Mechanics of Solids": 3,
+          "Thermodynamics": 3,
+          "Material Science": 3,
+          "Manufacturing Processes": 2
+        },
+        "Section B": {
+          "Mathematics II": 4,
+          "Mechanics of Solids": 3,
+          "Thermodynamics": 3,
+          "Material Science": 3,
+          "Manufacturing Processes": 2
+        }
+      },
+      "3rd": {
+        "Section A": {
+          "Fluid Mechanics": 3,
+          "Heat Transfer": 3,
+          "Machine Design": 3,
+          "Control Systems": 2,
+          "Elective": 2
+        },
+        "Section B": {
+          "Fluid Mechanics": 3,
+          "Heat Transfer": 3,
+          "Machine Design": 3,
+          "Control Systems": 2,
+          "Elective": 2
+        }
+      },
+      "4th": {
+        "Section A": {
+          "Automobile Engineering": 3,
+          "CAD/CAM": 3,
+          "Robotics": 3,
+          "Project": 4
+        },
+        "Section B": {
+          "Automobile Engineering": 3,
+          "CAD/CAM": 3,
+          "Robotics": 3,
+          "Project": 4
+        }
+      }
+    }
+  }
+}

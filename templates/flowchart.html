@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flowchart</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.3/dist/mermaid.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: "default",
+      securityLevel: "loose"
+    });
+    const nodeDetails = {
+      "A": {
+         description: "Start: Begin the program. This kicks off the timetable generator.",
+         code: "if __name__ == '__main__':\n    main()"
+      },
+      "B": {
+         description: "Load Data: Read the 'input.json' file to get details about teachers, rooms, and subjects.",
+         code: "with open('input.json', 'r') as f:\n    data = json.load(f)"
+      },
+      "C": {
+         description: "Initialize Settings: Define available time slots, days, and load subject details.",
+         code: "time_slots = [\"9:00-10:00\", \"10:00-11:00\", \"11:00-12:00\", \"2:00-3:00\", \"3:00-4:00\", \"4:00-5:00\"]\ndays = [\"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\"]"
+      },
+      "D": {
+         description: "Create Objects: Instantiate objects for generating schedules, checking quality, and saving results.",
+         code: "individual_gen = IndividualGenerator()\nfitness_calc = FitnessCalculator()\noperators = Operators()\ntimetable_saver = TimetableSaver(time_slots, days)\nsubject_saver = SubjectScheduleSaver(time_slots, days, subjects_per_semester)"
+      },
+      "E": {
+         description: "Set Up Toolbox: Create custom classes and register functions to create schedules, evaluate quality, mix, change, and choose schedules.",
+         code: "creator.create('FitnessMax', base.Fitness, weights=(1.0,))\ncreator.create('Individual', dict, fitness=creator.FitnessMax)\ntoolbox = base.Toolbox()\ntoolbox.register('individual', tools.initIterate, creator.Individual, generate_individual)\ntoolbox.register('population', tools.initRepeat, list, toolbox.individual)\ntoolbox.register('evaluate', fitness)\ntoolbox.register('mate', custom_crossover)\ntoolbox.register('mutate', custom_mutate)\ntoolbox.register('select', tools.selTournament, tournsize=3)"
+      },
+      "F": {
+         description: "Start Web App: Create the Flask app to display the timetable online.",
+         code: "app = Flask(__name__)"
+      },
+      "G": {
+         description: "Run the Process: Start the function that creates and improves schedules.",
+         code: "def run_ga():\n    pop = toolbox.population(n=50)\n    // ... improvement steps ...\n    best_ind = max(pop, key=lambda ind: ind.fitness.values[0])\n    return best_ind"
+      },
+      "H": {
+         description: "Make Schedules: Create 50 random schedules (timetables).",
+         code: "pop = toolbox.population(n=50)"
+      },
+      "I": {
+         description: "Check Quality: Evaluate each schedule’s score based on meeting class needs and avoiding conflicts.",
+         code: "for ind in invalid_ind:\n    ind.fitness.values = toolbox.evaluate(ind)"
+      },
+      "J": {
+         description: "Improve Schedules: Repeat the process 100 times to mix and tweak the schedules.",
+         code: "for gen in range(ngen):\n    // selection, crossover, mutation"
+      },
+      "K": {
+         description: "Pick Schedules: Choose better schedules using a simple tournament method.",
+         code: "offspring = toolbox.select(pop, len(pop))"
+      },
+      "L": {
+         description: "Copy Schedules: Clone the selected schedules so changes don’t affect the originals.",
+         code: "offspring = list(map(toolbox.clone, offspring))"
+      },
+      "M": {
+         description: "Mix Schedules: With a 70% chance, swap a random time slot between two schedules.",
+         code: "if random.random() < cxpb:\n    toolbox.mate(child1, child2)\n    del child1.fitness.values, child2.fitness.values"
+      },
+      "N": {
+         description: "Change Schedules: With a 20% chance, swap two time slots within a schedule to add variety.",
+         code: "if random.random() < mutpb:\n    toolbox.mutate(mutant)\n    del mutant.fitness.values"
+      },
+      "O": {
+         description: "Re-check Quality: Re-calculate the score for schedules after changes.",
+         code: "for ind in invalid_ind:\n    ind.fitness.values = toolbox.evaluate(ind)"
+      },
+      "P": {
+         description: "Update Schedules: Replace the old schedules with the new ones.",
+         code: "pop[:] = offspring"
+      },
+      "Q": {
+         description: "Finish Improving: End the improvement process after 100 rounds.",
+         code: "# End of improvement loop"
+      },
+      "R": {
+         description: "Choose the Best: Pick the schedule with the highest score from the final set.",
+         code: "best_ind = max(pop, key=lambda ind: ind.fitness.values[0])"
+      },
+      "S": {
+         description: "Return the Best: Use this top schedule for saving or display.",
+         code: "return best_ind"
+      },
+      "T": {
+         description: "Save Full Timetable: Save the best schedule to both a text file and a JSON file.",
+         code: "save_timetable_txt(best_ind, 'timetable.txt')\nsave_timetable(best_ind, 'timetable.json')"
+      },
+      "U": {
+         description: "Build Subject View: Rearrange the schedule so all classes for each subject are grouped together.",
+         code: "for subject in subj_info.keys():\n    // Build a grid for each subject"
+      },
+      "V": {
+         description: "Save Subject View: Save this subject-based schedule to a text file and a JSON file.",
+         code: "save_subject_wise_schedule_txt(best_ind, 'subject_schedule.txt')\nsave_subject_wise_schedule_json(best_ind, 'subject_schedule.json')"
+      },
+      "W": {
+         description: "Web Endpoints: Set up web pages and API endpoints to display the full and subject-based schedules.",
+         code: "app.route('/')\napp.route('/generate')\napp.route('/subject_schedule')\napp.route('/api/timetable')\napp.route('/api/subject_schedule')"
+      }
+    };
+
+    function showDetails(nodeId) {
+      const detailsObj = nodeDetails[nodeId] || { description: "No details available.", code: "" };
+      document.getElementById("modalTitle").innerText = "Details for Node " + nodeId;
+      document.getElementById("modalDescription").innerText = detailsObj.description;
+      document.getElementById("modalCode").textContent = detailsObj.code;
+      $('#detailsModal').modal('show');
+    }
+    
+    window.addEventListener("load", function() {
+      setTimeout(() => {
+        const nodes = document.querySelectorAll(".mermaid svg g.node");
+        nodes.forEach((node, index) => {
+          node.style.opacity = 0;
+          node.style.transform = "translateY(-20px)";
+          node.style.animation = "fadeIn 0.5s forwards";
+          node.style.animationDelay = `${index * 0.3}s`;
+        });
+      }, 500);
+    });
+  </script>
+  
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    h1 { text-align: center; }
+    .mermaid { text-align: center; margin: 20px auto; }
+    pre { background-color: #f8f8f8; padding: 10px; border: 1px solid #ccc; }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <h1>Flowchart</h1>
+  
+  <div class="mermaid">
+graph TD
+    A["Start: Launch Application"]
+    B["Load configuration data (input.json)"]
+    C["Initialize global constants\n(time_slots, days, subjects_per_semester,\nteachers, classrooms)"]
+    D["Create GA Objects\n(IndividualGenerator, FitnessCalculator,\nOperators, TimetableSaver,\nSubjectScheduleSaver)"]
+    E["Set up DEAP Toolbox:\n• Create custom Fitness & Individual classes\n• Register generator, population,\nevaluation, crossover, mutation, selection"]
+    F["Initialize Flask App"]
+    G["Run GA (run_ga function)"]
+    H["Generate Initial Population (n=50)"]
+    I["Evaluate fitness for each schedule\nusing FitnessCalculator.calculate()"]
+    J["Enter evolution loop (100 rounds)"]
+    K["Selection: Use tournament selection"]
+    L["Clone selected schedules"]
+    M["Crossover: 70% chance to swap a random day/slot"]
+    N["Mutation: 20% chance to swap two time slots"]
+    O["Re-evaluate fitness for changed schedules"]
+    P["Replace old schedules with new ones"]
+    Q["End evolution loop"]
+    R["Select best schedule (highest score)"]
+    S["Return best schedule"]
+    T["Save timetable to files\n(timetable.txt & timetable.json)"]
+    U["Build subject-wise schedule\n(group classes by subject)"]
+    V["Save subject schedule to files\n(subject_schedule.txt & subject_schedule.json)"]
+    W["Flask Routes: Display and API endpoints"]
+
+    click A "javascript:showDetails('A')"
+    click B "javascript:showDetails('B')"
+    click C "javascript:showDetails('C')"
+    click D "javascript:showDetails('D')"
+    click E "javascript:showDetails('E')"
+    click F "javascript:showDetails('F')"
+    click G "javascript:showDetails('G')"
+    click H "javascript:showDetails('H')"
+    click I "javascript:showDetails('I')"
+    click J "javascript:showDetails('J')"
+    click K "javascript:showDetails('K')"
+    click L "javascript:showDetails('L')"
+    click M "javascript:showDetails('M')"
+    click N "javascript:showDetails('N')"
+    click O "javascript:showDetails('O')"
+    click P "javascript:showDetails('P')"
+    click Q "javascript:showDetails('Q')"
+    click R "javascript:showDetails('R')"
+    click S "javascript:showDetails('S')"
+    click T "javascript:showDetails('T')"
+    click U "javascript:showDetails('U')"
+    click V "javascript:showDetails('V')"
+    click W "javascript:showDetails('W')"
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
+    H --> I
+    I --> J
+    J --> K
+    K --> L
+    L --> M
+    M --> N
+    N --> O
+    O --> P
+    P --> J
+    J --> Q
+    Q --> R
+    R --> S
+    S --> T
+    S --> U
+    T --> W
+    U --> W
+  </div>
+  
+  <div class="modal fade" id="detailsModal" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalTitle">Node Details</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p id="modalDescription"></p>
+          <pre><code id="modalCode"></code></pre>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
