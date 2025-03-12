@@ -97,10 +97,13 @@ class IndividualGenerator:
                             else:
                                 msg = (f"WARNING: Could not schedule {required_classes} classes for subject '{subject}' "
                                        f"in Branch {branch} Semester {semester} Section {section}.")
-                            print(msg)
+                            #print(msg)
                             self.warnings.append(msg)
                     individual[(branch, semester, section)] = section_timetable
-        print(f"Total classes required: {total_required}")
-        print(f"Total classes scheduled: {total_scheduled}")
-        print(f"Total classes NOT scheduled: {total_required - total_scheduled}")
+        with open("log.txt", "w") as file:
+            for item in self.warnings:
+                file.write(item + "\n")
+        #print(f"Total classes required: {total_required}")
+        #print(f"Total classes scheduled: {total_scheduled}")
+        #print(f"Total classes NOT scheduled: {total_required - total_scheduled}")
         return individual

@@ -17,11 +17,13 @@
         "Introduction to Engineering",
         "Basic Electrical Engineering",
         "English Communication",
-        "Workshop"
+        "Workshop",
+        "Advanced Robotics",
+        "Data Mining"
       ]
     },
     {
-      "name": "Dr. Yogi",
+      "name": "Dr. Johnson",
       "available_times": [
         "9:00-10:00",
         "10:00-11:00",
@@ -36,89 +38,11 @@
         "Data Structures",
         "Discrete Mathematics",
         "Computer Organization",
-        "Data Structures and Algorithms",
         "Operating Systems",
         "Algorithms",
         "Software Engineering",
         "Database Systems",
-        "Theory of Computation",
-        "Signals and Systems",
-        "Environmental Studies",
-        "Project"
-      ]
-    },
-    {
-      "name": "Dr. Amit",
-      "available_times": [
-        "9:00-10:00",
-        "10:00-11:00",
-        "11:00-12:00",
-        "2:00-3:00",
-        "3:00-4:00",
-        "4:00-5:00"
-      ],
-      "total_classes": 21,
-      "subjects_can_teach": [
-        "Digital Logic",
-        "Object Oriented Programming",
-        "Programming in C",
-        "Basic Electronics",
-        "Analog Electronics"
-      ]
-    },
-    {
-      "name": "Dr. Rajnath",
-      "available_times": [
-        "9:00-10:00",
-        "10:00-11:00",
-        "11:00-12:00",
-        "2:00-3:00",
-        "3:00-4:00",
-        "4:00-5:00"
-      ],
-      "total_classes": 24,
-      "subjects_can_teach": [
-        "Circuit Theory",
-        "Digital Electronics",
-        "Microprocessors",
-        "Control Systems",
-        "Circuits"
-      ]
-    },
-    {
-      "name": "Dr. Rajnath",
-      "available_times": [
-        "9:00-10:00",
-        "10:00-11:00",
-        "11:00-12:00",
-        "2:00-3:00",
-        "3:00-4:00",
-        "4:00-5:00"
-      ],
-      "total_classes": 24,
-      "subjects_can_teach": [
-        "Circuit Theory",
-        "Digital Electronics",
-        "Microprocessors",
-        "Control Systems"
-      ]
-    },
-    {
-      "name": "Dr. Johnson",
-      "available_times": [
-        "9:00-10:00",
-        "10:00-11:00",
-        "11:00-12:00",
-        "2:00-3:00",
-        "3:00-4:00",
-        "4:00-5:00"
-      ],
-      "total_classes": 22,
-      "subjects_can_teach": [
-        "Electrical Machines",
-        "Power Systems",
-        "Control Systems",
-        "Switchgear and Protection"
+        "DBMS Lab"
       ]
     },
     {
@@ -126,261 +50,21 @@
       "available_times": [
         "9:00-10:00",
         "10:00-11:00",
-        "11:00-12:00",
         "2:00-3:00",
-        "3:00-4:00",
-        "4:00-5:00"
-      ],
-      "total_classes": 20,
-      "subjects_can_teach": [
-        "Workshop",
-        "Engineering Drawing",
-        "Surveying"
-      ]
-    },
-    {
-      "name": "Dr. Singh",
-      "available_times": [
-        "9:00-10:00",
-        "10:00-11:00",
-        "3:00-4:00",
-        "4:00-5:00"
-      ],
-      "total_classes": 25,
-      "subjects_can_teach": [
-        "Mathematics I",
-        "Mathematics II",
-        "Discrete Mathematics",
-        "Statistics"
-      ]
-    },
-    {
-      "name": "Dr. Kumar",
-      "available_times": [
-        "9:00-10:00",
-        "11:00-12:00",
-        "2:00-3:00",
-        "3:00-4:00"
-      ],
-      "total_classes": 23,
-      "subjects_can_teach": [
-        "Chemistry",
-        "Organic Chemistry",
-        "Physical Chemistry",
-        "Chemical Process Calculations"
-      ]
-    },
-    {
-      "name": "Dr. Thomas",
-      "available_times": [
-        "10:00-11:00",
-        "11:00-12:00",
-        "3:00-4:00",
-        "4:00-5:00"
-      ],
-      "total_classes": 20,
-      "subjects_can_teach": [
-        "Fluid Mechanics",
-        "Heat Transfer",
-        "Thermodynamics",
-        "Machine Design"
-      ]
-    },
-    {
-      "name": "Dr. Sharma",
-      "available_times": [
-        "9:00-10:00",
-        "10:00-11:00",
-        "2:00-3:00",
-        "4:00-5:00"
-      ],
-      "total_classes": 24,
-      "subjects_can_teach": [
-        "Engineering Mechanics",
-        "Structural Analysis",
-        "Concrete Technology"
-      ]
-    },
-    {
-      "name": "Dr. Gupta",
-      "available_times": [
-        "10:00-11:00",
-        "11:00-12:00",
-        "2:00-3:00",
-        "3:00-4:00",
-        "4:00-5:00"
-      ],
-      "total_classes": 25,
-      "subjects_can_teach": [
-        "Computer Networks",
-        "Cloud Computing",
-        "Cyber Security",
-        "Database Systems"
-      ]
-    },
-    {
-      "name": "Dr. Patel",
-      "available_times": [
-        "9:00-10:00",
-        "3:00-4:00",
         "4:00-5:00"
       ],
       "total_classes": 22,
       "subjects_can_teach": [
-        "Web Technologies",
-        "Information Systems",
-        "Programming Fundamentals"
-      ]
-    },
-    {
-      "name": "Dr. Kapoor",
-      "available_times": [
-        "9:00-10:00",
-        "11:00-12:00",
-        "2:00-3:00",
-        "3:00-4:00",
-        "4:00-5:00"
-      ],
-      "total_classes": 25,
-      "subjects_can_teach": [
-        "Mathematics I",
-        "Mathematics II",
-        "Engineering Mechanics",
-        "Probability"
-      ]
-    },
-    {
-      "name": "Dr. Reddy",
-      "available_times": [
-        "9:00-10:00",
-        "10:00-11:00",
-        "3:00-4:00",
-        "4:00-5:00"
-      ],
-      "total_classes": 21,
-      "subjects_can_teach": [
-        "Introduction to IT",
-        "Software Engineering",
-        "Digital Logic"
-      ]
-    },
-    {
-      "name": "Dr. Allen",
-      "available_times": [
-        "9:00-10:00",
-        "10:00-11:00",
-        "11:00-12:00",
-        "2:00-3:00",
-        "3:00-4:00",
-        "4:00-5:00"
-      ],
-      "total_classes": 20,
-      "subjects_can_teach": [
-        "VLSI Design",
-        "Embedded Systems",
-        "Microprocessors"
-      ]
-    },
-    {
-      "name": "Dr. Baker",
-      "available_times": [
-        "9:00-10:00",
-        "10:00-11:00",
-        "11:00-12:00",
-        "2:00-3:00",
-        "3:00-4:00",
-        "4:00-5:00"
-      ],
-      "total_classes": 23,
-      "subjects_can_teach": [
-        "Robotics",
-        "Control Systems",
-        "Automation"
-      ]
-    },
-    {
-      "name": "Dr. Carter",
-      "available_times": [
-        "9:00-10:00",
-        "10:00-11:00",
-        "11:00-12:00",
-        "2:00-3:00",
-        "3:00-4:00",
-        "4:00-5:00"
-      ],
-      "total_classes": 24,
-      "subjects_can_teach": [
-        "Environmental Engineering",
-        "Sustainable Engineering",
-        "Project Management"
-      ]
-    },
-    {
-      "name": "Dr. Davis",
-      "available_times": [
-        "9:00-10:00",
-        "10:00-11:00",
-        "11:00-12:00",
-        "2:00-3:00",
-        "3:00-4:00",
-        "4:00-5:00"
-      ],
-      "total_classes": 22,
-      "subjects_can_teach": [
-        "Manufacturing Processes",
-        "Material Science",
-        "CAD/CAM"
-      ]
-    },
-    {
-      "name": "Dr. Evans",
-      "available_times": [
-        "9:00-10:00",
-        "10:00-11:00",
-        "11:00-12:00",
-        "2:00-3:00",
-        "3:00-4:00",
-        "4:00-5:00"
-      ],
-      "total_classes": 21,
-      "subjects_can_teach": [
-        "Communication Systems",
-        "Digital Signal Processing",
-        "Analog Electronics"
-      ]
-    },
-    {
-      "name": "Dr. Ford",
-      "available_times": [
-        "9:00-10:00",
-        "10:00-11:00",
-        "11:00-12:00",
-        "2:00-3:00",
-        "3:00-4:00",
-        "4:00-5:00"
-      ],
-      "total_classes": 25,
-      "subjects_can_teach": [
-        "Electromagnetic Fields",
-        "Signal Processing",
-        "Control Systems"
-      ]
-    },
-    {
-      "name": "Dr. Lee",
-      "available_times": [
-        "9:00-10:00",
-        "10:00-11:00",
-        "11:00-12:00",
-        "2:00-3:00",
-        "3:00-4:00",
-        "4:00-5:00"
-      ],
-      "total_classes": 22,
-      "subjects_can_teach": [
-        "Data Structures and Algorithms",
-        "Operating Systems",
-        "Software Engineering"
+        "Digital Logic",
+        "Object Oriented Programming",
+        "Programming in C",
+        "Basic Electronics",
+        "Analog Electronics",
+        "Advanced Control Systems",
+        "Quantum Mechanics",
+        "Machine Learning",
+        "C Lab",
+        "Chemistry Lab"
       ]
     },
     {
@@ -395,10 +79,191 @@
       ],
       "total_classes": 24,
       "subjects_can_teach": [
-        "Mathematics I",
-        "Mathematics II",
-        "Discrete Mathematics",
-        "Statistics"
+        "Circuit Theory",
+        "Digital Electronics",
+        "Microprocessors",
+        "Control Systems",
+        "Circuits",
+        "Advanced Robotics",
+        "Bioinformatics",
+        "Artificial Intelligence",
+        "Workshop Lab"
+      ]
+    },
+    {
+      "name": "Dr. Jones",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 23,
+      "subjects_can_teach": [
+        "Electrical Machines",
+        "Power Systems",
+        "Control Systems",
+        "Switchgear and Protection",
+        "Electromagnetic Fields",
+        "Signal Processing",
+        "Cloud Computing",
+        "Network Security",
+        "Workshop Lab"
+      ]
+    },
+    {
+      "name": "Dr. Miller",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 25,
+      "subjects_can_teach": [
+        "Engineering Drawing",
+        "Surveying",
+        "Workshop",
+        "Construction Technology",
+        "Advanced Control Systems",
+        "Sustainable Engineering",
+        "Project Management",
+        "Digital Signal Processing",
+        "Chemistry Lab"
+      ]
+    },
+    {
+      "name": "Dr. Davis",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 22,
+      "subjects_can_teach": [
+        "Fluid Mechanics",
+        "Heat Transfer",
+        "Thermodynamics",
+        "Machine Design",
+        "Data Mining",
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Statistics",
+        "C Lab"
+      ]
+    },
+    {
+      "name": "Dr. Garcia",
+      "available_times": [
+        "9:00-10:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00"
+      ],
+      "total_classes": 24,
+      "subjects_can_teach": [
+        "Engineering Mechanics",
+        "Structural Analysis",
+        "Concrete Technology",
+        "Workshop",
+        "Project",
+        "Digital Signal Processing",
+        "Cyber Security",
+        "Web Technologies",
+        "DBMS Lab"
+      ]
+    },
+    {
+      "name": "Dr. Rodriguez",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 23,
+      "subjects_can_teach": [
+        "VLSI Design",
+        "Embedded Systems",
+        "Microprocessors",
+        "Robotics",
+        "Automation",
+        "Advanced Robotics",
+        "Data Structures",
+        "Algorithms"
+      ]
+    },
+    {
+      "name": "Dr. Wilson",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 26,
+      "subjects_can_teach": [
+        "Cloud Computing",
+        "Cyber Security",
+        "Computer Networks",
+        "Information Systems",
+        "Data Mining",
+        "Artificial Intelligence",
+        "Software Engineering",
+        "Database Systems"
+      ]
+    },
+    {
+      "name": "Dr. Martinez",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 24,
+      "subjects_can_teach": [
+        "Chemical Process Calculations",
+        "Organic Chemistry",
+        "Physical Chemistry",
+        "Project",
+        "Advanced Control Systems",
+        "Digital Signal Processing",
+        "Data Structures",
+        "Probability"
+      ]
+    },
+    {
+      "name": "Dr. Anderson",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "2:00-3:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 23,
+      "subjects_can_teach": [
+        "Programming Fundamentals",
+        "Data Structures and Algorithms",
+        "Operating Systems",
+        "Software Engineering",
+        "Database Systems",
+        "Theory of Computation",
+        "Signals and Systems",
+        "Mathematics II"
       ]
     },
     {
@@ -411,11 +276,146 @@
         "3:00-4:00",
         "4:00-5:00"
       ],
-      "total_classes": 20,
+      "total_classes": 25,
       "subjects_can_teach": [
-        "Computer Networks",
+        "Mathematics I",
+        "Mathematics II",
+        "Discrete Mathematics",
+        "Statistics",
+        "Data Mining",
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Quantum Mechanics"
+      ]
+    },
+    {
+      "name": "Dr. Thomas",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 24,
+      "subjects_can_teach": [
+        "Digital Logic",
+        "Object Oriented Programming",
+        "Programming in C",
+        "Basic Electronics",
+        "Analog Electronics",
+        "Embedded Systems",
+        "VLSI Design",
+        "Control Systems"
+      ]
+    },
+    {
+      "name": "Dr. Hernandez",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 22,
+      "subjects_can_teach": [
+        "Circuit Theory",
+        "Digital Electronics",
+        "Microprocessors",
+        "Control Systems",
+        "Circuits",
+        "Electromagnetic Fields",
+        "Signal Processing",
+        "Advanced Robotics"
+      ]
+    },
+    {
+      "name": "Dr. Moore",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 23,
+      "subjects_can_teach": [
+        "Electrical Machines",
+        "Power Systems",
+        "Switchgear and Protection",
+        "Control Systems",
+        "Cloud Computing",
         "Cyber Security",
-        "Cloud Computing"
+        "Computer Networks",
+        "Information Systems"
+      ]
+    },
+    {
+      "name": "Dr. Martin",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 25,
+      "subjects_can_teach": [
+        "Engineering Drawing",
+        "Surveying",
+        "Workshop",
+        "Construction Technology",
+        "Project Management",
+        "Sustainable Engineering",
+        "Digital Signal Processing",
+        "Advanced Control Systems"
+      ]
+    },
+    {
+      "name": "Dr. Jackson",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 24,
+      "subjects_can_teach": [
+        "Fluid Mechanics",
+        "Heat Transfer",
+        "Thermodynamics",
+        "Machine Design",
+        "Data Mining",
+        "Statistics",
+        "Advanced Robotics",
+        "Machine Learning"
+      ]
+    },
+    {
+      "name": "Dr. Thompson",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "2:00-3:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 22,
+      "subjects_can_teach": [
+        "Engineering Mechanics",
+        "Structural Analysis",
+        "Concrete Technology",
+        "Workshop",
+        "Project",
+        "Advanced Control Systems",
+        "Digital Signal Processing",
+        "Cyber Security"
       ]
     },
     {
@@ -430,9 +430,446 @@
       ],
       "total_classes": 23,
       "subjects_can_teach": [
-        "Digital Logic",
+        "VLSI Design",
         "Embedded Systems",
-        "VLSI Design"
+        "Microprocessors",
+        "Robotics",
+        "Automation",
+        "Data Structures",
+        "Algorithms",
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Dr. Lopez",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 25,
+      "subjects_can_teach": [
+        "Cloud Computing",
+        "Cyber Security",
+        "Computer Networks",
+        "Information Systems",
+        "Database Systems",
+        "Theory of Computation",
+        "Signals and Systems",
+        "Data Mining"
+      ]
+    },
+    {
+      "name": "Dr. Lee",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 24,
+      "subjects_can_teach": [
+        "Chemical Process Calculations",
+        "Organic Chemistry",
+        "Physical Chemistry",
+        "Project",
+        "Construction Technology",
+        "Digital Signal Processing",
+        "Probability",
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Dr. Gonzalez",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 23,
+      "subjects_can_teach": [
+        "Programming Fundamentals",
+        "Data Structures and Algorithms",
+        "Operating Systems",
+        "Software Engineering",
+        "Database Systems",
+        "Theory of Computation",
+        "Mathematics I",
+        "Mathematics II"
+      ]
+    },
+    {
+      "name": "Dr. Harris",
+      "available_times": [
+        "9:00-10:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00"
+      ],
+      "total_classes": 22,
+      "subjects_can_teach": [
+        "Mathematics I",
+        "Physics",
+        "Introduction to Engineering",
+        "Basic Electrical Engineering",
+        "English Communication",
+        "Workshop",
+        "Advanced Robotics",
+        "Quantum Mechanics"
+      ]
+    },
+    {
+      "name": "Dr. Clark",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 25,
+      "subjects_can_teach": [
+        "Programming Fundamentals",
+        "Data Structures",
+        "Discrete Mathematics",
+        "Computer Organization",
+        "Operating Systems",
+        "Algorithms",
+        "Software Engineering",
+        "Database Systems"
+      ]
+    },
+    {
+      "name": "Dr. Lewis",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 24,
+      "subjects_can_teach": [
+        "Digital Logic",
+        "Object Oriented Programming",
+        "Programming in C",
+        "Basic Electronics",
+        "Analog Electronics",
+        "Embedded Systems",
+        "VLSI Design",
+        "Control Systems"
+      ]
+    },
+    {
+      "name": "Dr. Robinson",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 23,
+      "subjects_can_teach": [
+        "Circuit Theory",
+        "Digital Electronics",
+        "Microprocessors",
+        "Control Systems",
+        "Circuits",
+        "Electromagnetic Fields",
+        "Signal Processing",
+        "Advanced Control Systems"
+      ]
+    },
+    {
+      "name": "Dr. Walker",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 22,
+      "subjects_can_teach": [
+        "Electrical Machines",
+        "Power Systems",
+        "Switchgear and Protection",
+        "Control Systems",
+        "Cloud Computing",
+        "Cyber Security",
+        "Computer Networks",
+        "Information Systems"
+      ]
+    },
+    {
+      "name": "Dr. Perez",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 25,
+      "subjects_can_teach": [
+        "Engineering Drawing",
+        "Surveying",
+        "Workshop",
+        "Construction Technology",
+        "Project Management",
+        "Sustainable Engineering",
+        "Digital Signal Processing",
+        "Advanced Robotics"
+      ]
+    },
+    {
+      "name": "Dr. Hall",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "2:00-3:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 23,
+      "subjects_can_teach": [
+        "Fluid Mechanics",
+        "Heat Transfer",
+        "Thermodynamics",
+        "Machine Design",
+        "Data Mining",
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Dr. Young",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 24,
+      "subjects_can_teach": [
+        "Engineering Mechanics",
+        "Structural Analysis",
+        "Concrete Technology",
+        "Workshop",
+        "Project",
+        "Digital Signal Processing",
+        "Cyber Security",
+        "Web Technologies"
+      ]
+    },
+    {
+      "name": "Dr. Allen",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 22,
+      "subjects_can_teach": [
+        "VLSI Design",
+        "Embedded Systems",
+        "Microprocessors",
+        "Robotics",
+        "Automation",
+        "Advanced Robotics",
+        "Data Structures",
+        "Algorithms"
+      ]
+    },
+    {
+      "name": "Dr. Sanchez",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 25,
+      "subjects_can_teach": [
+        "Cloud Computing",
+        "Cyber Security",
+        "Computer Networks",
+        "Information Systems",
+        "Database Systems",
+        "Theory of Computation",
+        "Signals and Systems",
+        "Data Mining"
+      ]
+    },
+    {
+      "name": "Dr. Wright",
+      "available_times": [
+        "9:00-10:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00"
+      ],
+      "total_classes": 23,
+      "subjects_can_teach": [
+        "Chemical Process Calculations",
+        "Organic Chemistry",
+        "Physical Chemistry",
+        "Project",
+        "Construction Technology",
+        "Digital Signal Processing",
+        "Probability",
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Dr. King",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 24,
+      "subjects_can_teach": [
+        "Programming Fundamentals",
+        "Data Structures and Algorithms",
+        "Operating Systems",
+        "Software Engineering",
+        "Database Systems",
+        "Theory of Computation",
+        "Mathematics I",
+        "Mathematics II"
+      ]
+    },
+    {
+      "name": "Dr. Scott",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 22,
+      "subjects_can_teach": [
+        "Mathematics I",
+        "Physics",
+        "Introduction to Engineering",
+        "Basic Electrical Engineering",
+        "English Communication",
+        "Workshop",
+        "Advanced Robotics",
+        "Data Mining"
+      ]
+    },
+    {
+      "name": "Dr. Torres",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 25,
+      "subjects_can_teach": [
+        "Digital Logic",
+        "Object Oriented Programming",
+        "Programming in C",
+        "Basic Electronics",
+        "Analog Electronics",
+        "Embedded Systems",
+        "VLSI Design",
+        "Control Systems"
+      ]
+    },
+    {
+      "name": "Dr. Nguyen",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "2:00-3:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 23,
+      "subjects_can_teach": [
+        "Circuit Theory",
+        "Digital Electronics",
+        "Microprocessors",
+        "Control Systems",
+        "Circuits",
+        "Electromagnetic Fields",
+        "Signal Processing",
+        "Advanced Control Systems"
+      ]
+    },
+    {
+      "name": "Dr. Hill",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 24,
+      "subjects_can_teach": [
+        "Electrical Machines",
+        "Power Systems",
+        "Switchgear and Protection",
+        "Control Systems",
+        "Cloud Computing",
+        "Cyber Security",
+        "Computer Networks",
+        "Information Systems"
+      ]
+    },
+    {
+      "name": "Dr. Flores",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 22,
+      "subjects_can_teach": [
+        "Engineering Drawing",
+        "Surveying",
+        "Workshop",
+        "Construction Technology",
+        "Project Management",
+        "Sustainable Engineering",
+        "Digital Signal Processing",
+        "Advanced Robotics"
       ]
     },
     {
@@ -447,30 +884,38 @@
       ],
       "total_classes": 25,
       "subjects_can_teach": [
-        "Robotics",
-        "Control Systems",
-        "Automation"
+        "Fluid Mechanics",
+        "Heat Transfer",
+        "Thermodynamics",
+        "Machine Design",
+        "Data Mining",
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Statistics"
       ]
     },
     {
-      "name": "Dr. Black",
+      "name": "Dr. Adams",
       "available_times": [
         "9:00-10:00",
-        "10:00-11:00",
         "11:00-12:00",
         "2:00-3:00",
-        "3:00-4:00",
-        "4:00-5:00"
+        "3:00-4:00"
       ],
-      "total_classes": 21,
+      "total_classes": 23,
       "subjects_can_teach": [
-        "Circuit Theory",
-        "Digital Electronics",
-        "Microprocessors"
+        "Engineering Mechanics",
+        "Structural Analysis",
+        "Concrete Technology",
+        "Workshop",
+        "Project",
+        "Digital Signal Processing",
+        "Cyber Security",
+        "Web Technologies"
       ]
     },
     {
-      "name": "Dr. Martin",
+      "name": "Dr. Nelson",
       "available_times": [
         "9:00-10:00",
         "10:00-11:00",
@@ -481,12 +926,190 @@
       ],
       "total_classes": 24,
       "subjects_can_teach": [
-        "Engineering Mechanics",
-        "Structural Analysis"
+        "VLSI Design",
+        "Embedded Systems",
+        "Microprocessors",
+        "Robotics",
+        "Automation",
+        "Advanced Robotics",
+        "Data Structures",
+        "Algorithms"
       ]
     },
     {
-      "name": "Dr. King",
+      "name": "Dr. Baker",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 22,
+      "subjects_can_teach": [
+        "Cloud Computing",
+        "Cyber Security",
+        "Computer Networks",
+        "Information Systems",
+        "Database Systems",
+        "Theory of Computation",
+        "Signals and Systems",
+        "Data Mining"
+      ]
+    },
+    {
+      "name": "Dr. Rivera",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 25,
+      "subjects_can_teach": [
+        "Chemical Process Calculations",
+        "Organic Chemistry",
+        "Physical Chemistry",
+        "Project",
+        "Construction Technology",
+        "Digital Signal Processing",
+        "Probability",
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Dr. Campbell",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "2:00-3:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 23,
+      "subjects_can_teach": [
+        "Programming Fundamentals",
+        "Data Structures and Algorithms",
+        "Operating Systems",
+        "Software Engineering",
+        "Database Systems",
+        "Theory of Computation",
+        "Mathematics I",
+        "Mathematics II"
+      ]
+    },
+    {
+      "name": "Dr. Mitchell",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 24,
+      "subjects_can_teach": [
+        "Mathematics I",
+        "Physics",
+        "Introduction to Engineering",
+        "Basic Electrical Engineering",
+        "English Communication",
+        "Workshop",
+        "Advanced Robotics",
+        "Quantum Mechanics"
+      ]
+    },
+    {
+      "name": "Dr. Carter",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 22,
+      "subjects_can_teach": [
+        "Digital Logic",
+        "Object Oriented Programming",
+        "Programming in C",
+        "Basic Electronics",
+        "Analog Electronics",
+        "Embedded Systems",
+        "VLSI Design",
+        "Control Systems"
+      ]
+    },
+    {
+      "name": "Dr. Roberts",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 25,
+      "subjects_can_teach": [
+        "Circuit Theory",
+        "Digital Electronics",
+        "Microprocessors",
+        "Control Systems",
+        "Circuits",
+        "Electromagnetic Fields",
+        "Signal Processing",
+        "Advanced Control Systems"
+      ]
+    },
+    {
+      "name": "Dr. Turner",
+      "available_times": [
+        "9:00-10:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00"
+      ],
+      "total_classes": 23,
+      "subjects_can_teach": [
+        "Electrical Machines",
+        "Power Systems",
+        "Switchgear and Protection",
+        "Control Systems",
+        "Cloud Computing",
+        "Cyber Security",
+        "Computer Networks",
+        "Information Systems"
+      ]
+    },
+    {
+      "name": "Dr. Phillips",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 24,
+      "subjects_can_teach": [
+        "Engineering Drawing",
+        "Surveying",
+        "Workshop",
+        "Construction Technology",
+        "Project Management",
+        "Sustainable Engineering",
+        "Digital Signal Processing",
+        "Advanced Robotics"
+      ]
+    },
+    {
+      "name": "Dr. Parker",
       "available_times": [
         "9:00-10:00",
         "10:00-11:00",
@@ -499,11 +1122,16 @@
       "subjects_can_teach": [
         "Fluid Mechanics",
         "Heat Transfer",
-        "Thermodynamics"
+        "Thermodynamics",
+        "Machine Design",
+        "Data Mining",
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Statistics"
       ]
     },
     {
-      "name": "Dr. Wright",
+      "name": "Dr. Evans",
       "available_times": [
         "9:00-10:00",
         "10:00-11:00",
@@ -512,60 +1140,36 @@
         "3:00-4:00",
         "4:00-5:00"
       ],
-      "total_classes": 20,
+      "total_classes": 25,
       "subjects_can_teach": [
-        "Object Oriented Programming",
-        "Programming in C"
-      ]
-    },
-    {
-      "name": "Dr. Scott",
-      "available_times": [
-        "9:00-10:00",
-        "10:00-11:00",
-        "11:00-12:00",
-        "2:00-3:00",
-        "3:00-4:00",
-        "4:00-5:00"
-      ],
-      "total_classes": 23,
-      "subjects_can_teach": [
-        "Database Systems",
-        "Software Engineering",
+        "Engineering Mechanics",
+        "Structural Analysis",
+        "Concrete Technology",
+        "Workshop",
+        "Project",
+        "Digital Signal Processing",
+        "Cyber Security",
         "Web Technologies"
       ]
     },
     {
-      "name": "Dr. Adams",
+      "name": "Dr. Edwards",
       "available_times": [
         "9:00-10:00",
         "10:00-11:00",
-        "11:00-12:00",
         "2:00-3:00",
-        "3:00-4:00",
         "4:00-5:00"
       ],
-      "total_classes": 22,
+      "total_classes": 23,
       "subjects_can_teach": [
-        "Introduction to IT",
-        "Information Systems",
-        "Computer Organization"
-      ]
-    },
-    {
-      "name": "Dr. Baker2",
-      "available_times": [
-        "9:00-10:00",
-        "10:00-11:00",
-        "11:00-12:00",
-        "2:00-3:00",
-        "3:00-4:00",
-        "4:00-5:00"
-      ],
-      "total_classes": 24,
-      "subjects_can_teach": [
-        "Electromagnetic Fields",
-        "Signal Processing"
+        "VLSI Design",
+        "Embedded Systems",
+        "Microprocessors",
+        "Robotics",
+        "Automation",
+        "Advanced Robotics",
+        "Data Structures",
+        "Algorithms"
       ]
     },
     {
@@ -578,15 +1182,20 @@
         "3:00-4:00",
         "4:00-5:00"
       ],
-      "total_classes": 21,
+      "total_classes": 24,
       "subjects_can_teach": [
-        "Chemical Process Calculations",
-        "Organic Chemistry",
-        "Physical Chemistry"
+        "Cloud Computing",
+        "Cyber Security",
+        "Computer Networks",
+        "Information Systems",
+        "Database Systems",
+        "Theory of Computation",
+        "Signals and Systems",
+        "Data Mining"
       ]
     },
     {
-      "name": "Dr. Murphy",
+      "name": "Dr. Stewart",
       "available_times": [
         "9:00-10:00",
         "10:00-11:00",
@@ -595,12 +1204,58 @@
         "3:00-4:00",
         "4:00-5:00"
       ],
+      "total_classes": 22,
+      "subjects_can_teach": [
+        "Chemical Process Calculations",
+        "Organic Chemistry",
+        "Physical Chemistry",
+        "Project",
+        "Construction Technology",
+        "Digital Signal Processing",
+        "Probability",
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Dr. Morris",
+      "available_times": [
+        "9:00-10:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00"
+      ],
       "total_classes": 25,
       "subjects_can_teach": [
-        "Manufacturing Processes",
-        "Material Science",
-        "CAD/CAM",
-        "Automobile Engineering"
+        "Programming Fundamentals",
+        "Data Structures and Algorithms",
+        "Operating Systems",
+        "Software Engineering",
+        "Database Systems",
+        "Theory of Computation",
+        "Mathematics I",
+        "Mathematics II"
+      ]
+    },
+    {
+      "name": "Dr. Rogers",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 23,
+      "subjects_can_teach": [
+        "Mathematics I",
+        "Physics",
+        "Introduction to Engineering",
+        "Basic Electrical Engineering",
+        "English Communication",
+        "Workshop",
+        "Advanced Robotics",
+        "Quantum Mechanics"
       ]
     },
     {
@@ -613,15 +1268,40 @@
         "3:00-4:00",
         "4:00-5:00"
       ],
-      "total_classes": 23,
+      "total_classes": 24,
       "subjects_can_teach": [
-        "Project Management",
-        "Environmental Engineering",
-        "Project"
+        "Digital Logic",
+        "Object Oriented Programming",
+        "Programming in C",
+        "Basic Electronics",
+        "Analog Electronics",
+        "Embedded Systems",
+        "VLSI Design",
+        "Control Systems"
       ]
     },
     {
-      "name": "Dr. Foster",
+      "name": "Dr. Cook",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "2:00-3:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 22,
+      "subjects_can_teach": [
+        "Circuit Theory",
+        "Digital Electronics",
+        "Microprocessors",
+        "Control Systems",
+        "Circuits",
+        "Electromagnetic Fields",
+        "Signal Processing",
+        "Advanced Control Systems"
+      ]
+    },
+    {
+      "name": "Dr. Morgan",
       "available_times": [
         "9:00-10:00",
         "10:00-11:00",
@@ -630,15 +1310,126 @@
         "3:00-4:00",
         "4:00-5:00"
       ],
-      "total_classes": 20,
+      "total_classes": 25,
       "subjects_can_teach": [
-        "VLSI Design",
-        "Embedded Systems",
-        "Robotics"
+        "Electrical Machines",
+        "Power Systems",
+        "Switchgear and Protection",
+        "Control Systems",
+        "Cloud Computing",
+        "Cyber Security",
+        "Computer Networks",
+        "Information Systems"
       ]
     },
     {
-      "name": "Dr. Barnes",
+      "name": "Dr. Bell",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 24,
+      "subjects_can_teach": [
+        "Engineering Drawing",
+        "Surveying",
+        "Workshop",
+        "Construction Technology",
+        "Project Management",
+        "Sustainable Engineering",
+        "Digital Signal Processing",
+        "Advanced Robotics"
+      ]
+    },
+    {
+      "name": "Dr. Murphy",
+      "available_times": [
+        "9:00-10:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00"
+      ],
+      "total_classes": 22,
+      "subjects_can_teach": [
+        "Fluid Mechanics",
+        "Heat Transfer",
+        "Thermodynamics",
+        "Machine Design",
+        "Data Mining",
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Dr. Bailey",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 25,
+      "subjects_can_teach": [
+        "Engineering Mechanics",
+        "Structural Analysis",
+        "Concrete Technology",
+        "Workshop",
+        "Project",
+        "Digital Signal Processing",
+        "Cyber Security",
+        "Web Technologies"
+      ]
+    },
+    {
+      "name": "Dr. Cooper",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 23,
+      "subjects_can_teach": [
+        "VLSI Design",
+        "Embedded Systems",
+        "Microprocessors",
+        "Robotics",
+        "Automation",
+        "Advanced Robotics",
+        "Data Structures",
+        "Algorithms"
+      ]
+    },
+    {
+      "name": "Dr. Richardson",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "2:00-3:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 24,
+      "subjects_can_teach": [
+        "Cloud Computing",
+        "Cyber Security",
+        "Computer Networks",
+        "Information Systems",
+        "Database Systems",
+        "Theory of Computation",
+        "Signals and Systems",
+        "Data Mining"
+      ]
+    },
+    {
+      "name": "Dr. Cox",
       "available_times": [
         "9:00-10:00",
         "10:00-11:00",
@@ -649,8 +1440,184 @@
       ],
       "total_classes": 22,
       "subjects_can_teach": [
+        "Chemical Process Calculations",
+        "Organic Chemistry",
+        "Physical Chemistry",
+        "Project",
+        "Construction Technology",
+        "Digital Signal Processing",
+        "Probability",
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Dr. Howard",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 25,
+      "subjects_can_teach": [
         "Programming Fundamentals",
-        "Data Structures"
+        "Data Structures and Algorithms",
+        "Operating Systems",
+        "Software Engineering",
+        "Database Systems",
+        "Theory of Computation",
+        "Mathematics I",
+        "Mathematics II"
+      ]
+    },
+    {
+      "name": "Dr. Ward",
+      "available_times": [
+        "9:00-10:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00"
+      ],
+      "total_classes": 23,
+      "subjects_can_teach": [
+        "Mathematics I",
+        "Physics",
+        "Introduction to Engineering",
+        "Basic Electrical Engineering",
+        "English Communication",
+        "Workshop",
+        "Advanced Robotics",
+        "Quantum Mechanics"
+      ]
+    },
+    {
+      "name": "Dr. Peterson",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 24,
+      "subjects_can_teach": [
+        "Digital Logic",
+        "Object Oriented Programming",
+        "Programming in C",
+        "Basic Electronics",
+        "Analog Electronics",
+        "Embedded Systems",
+        "VLSI Design",
+        "Control Systems"
+      ]
+    },
+    {
+      "name": "Dr. Gray",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 22,
+      "subjects_can_teach": [
+        "Circuit Theory",
+        "Digital Electronics",
+        "Microprocessors",
+        "Control Systems",
+        "Circuits",
+        "Electromagnetic Fields",
+        "Signal Processing",
+        "Advanced Control Systems"
+      ]
+    },
+    {
+      "name": "Dr. Ramirez",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "2:00-3:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 25,
+      "subjects_can_teach": [
+        "Electrical Machines",
+        "Power Systems",
+        "Switchgear and Protection",
+        "Control Systems",
+        "Cloud Computing",
+        "Cyber Security",
+        "Computer Networks",
+        "Information Systems"
+      ]
+    },
+    {
+      "name": "Dr. James",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 24,
+      "subjects_can_teach": [
+        "Engineering Drawing",
+        "Surveying",
+        "Workshop",
+        "Construction Technology",
+        "Project Management",
+        "Sustainable Engineering",
+        "Digital Signal Processing",
+        "Advanced Robotics"
+      ]
+    },
+    {
+      "name": "Dr. Watson",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 22,
+      "subjects_can_teach": [
+        "Fluid Mechanics",
+        "Heat Transfer",
+        "Thermodynamics",
+        "Machine Design",
+        "Data Mining",
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Dr. Brooks",
+      "available_times": [
+        "9:00-10:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00"
+      ],
+      "total_classes": 23,
+      "subjects_can_teach": [
+        "Engineering Mechanics",
+        "Structural Analysis",
+        "Concrete Technology",
+        "Workshop",
+        "Project",
+        "Digital Signal Processing",
+        "Cyber Security",
+        "Web Technologies"
       ]
     },
     {
@@ -665,30 +1632,18 @@
       ],
       "total_classes": 24,
       "subjects_can_teach": [
-        "Mathematics I",
-        "Mathematics II",
-        "Probability"
-      ]
-    },
-    {
-      "name": "Dr. Parker",
-      "available_times": [
-        "9:00-10:00",
-        "10:00-11:00",
-        "11:00-12:00",
-        "2:00-3:00",
-        "3:00-4:00",
-        "4:00-5:00"
-      ],
-      "total_classes": 23,
-      "subjects_can_teach": [
-        "Control Systems",
+        "VLSI Design",
+        "Embedded Systems",
         "Microprocessors",
-        "Digital Signal Processing"
+        "Robotics",
+        "Automation",
+        "Advanced Robotics",
+        "Data Structures",
+        "Algorithms"
       ]
     },
     {
-      "name": "Dr. Murphy2",
+      "name": "Dr. Sanders",
       "available_times": [
         "9:00-10:00",
         "10:00-11:00",
@@ -697,12 +1652,248 @@
         "3:00-4:00",
         "4:00-5:00"
       ],
-      "total_classes": 21,
+      "total_classes": 22,
+      "subjects_can_teach": [
+        "Cloud Computing",
+        "Cyber Security",
+        "Computer Networks",
+        "Information Systems",
+        "Database Systems",
+        "Theory of Computation",
+        "Signals and Systems",
+        "Data Mining"
+      ]
+    },
+    {
+      "name": "Dr. Price",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "2:00-3:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 25,
+      "subjects_can_teach": [
+        "Chemical Process Calculations",
+        "Organic Chemistry",
+        "Physical Chemistry",
+        "Project",
+        "Construction Technology",
+        "Digital Signal Processing",
+        "Probability",
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Dr. Bennett",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 24,
+      "subjects_can_teach": [
+        "Programming Fundamentals",
+        "Data Structures and Algorithms",
+        "Operating Systems",
+        "Software Engineering",
+        "Database Systems",
+        "Theory of Computation",
+        "Mathematics I",
+        "Mathematics II"
+      ]
+    },
+    {
+      "name": "Dr. Wood",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 22,
+      "subjects_can_teach": [
+        "Mathematics I",
+        "Physics",
+        "Introduction to Engineering",
+        "Basic Electrical Engineering",
+        "English Communication",
+        "Workshop",
+        "Advanced Robotics",
+        "Data Mining"
+      ]
+    },
+    {
+      "name": "Dr. Barnes",
+      "available_times": [
+        "9:00-10:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00"
+      ],
+      "total_classes": 25,
+      "subjects_can_teach": [
+        "Digital Logic",
+        "Object Oriented Programming",
+        "Programming in C",
+        "Basic Electronics",
+        "Analog Electronics",
+        "Embedded Systems",
+        "VLSI Design",
+        "Control Systems"
+      ]
+    },
+    {
+      "name": "Dr. Ross",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 24,
+      "subjects_can_teach": [
+        "Circuit Theory",
+        "Digital Electronics",
+        "Microprocessors",
+        "Control Systems",
+        "Circuits",
+        "Electromagnetic Fields",
+        "Signal Processing",
+        "Advanced Control Systems"
+      ]
+    },
+    {
+      "name": "Dr. Henderson",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 22,
+      "subjects_can_teach": [
+        "Electrical Machines",
+        "Power Systems",
+        "Switchgear and Protection",
+        "Control Systems",
+        "Cloud Computing",
+        "Cyber Security",
+        "Computer Networks",
+        "Information Systems"
+      ]
+    },
+    {
+      "name": "Dr. Coleman",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "2:00-3:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 25,
       "subjects_can_teach": [
         "Engineering Drawing",
-        "Workshop",
         "Surveying",
-        "Project"
+        "Workshop",
+        "Construction Technology",
+        "Project Management",
+        "Sustainable Engineering",
+        "Digital Signal Processing",
+        "Advanced Robotics"
+      ]
+    },
+    {
+      "name": "Dr. Jenkins",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 24,
+      "subjects_can_teach": [
+        "Fluid Mechanics",
+        "Heat Transfer",
+        "Thermodynamics",
+        "Machine Design",
+        "Data Mining",
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Dr. Perry",
+      "available_times": [
+        "9:00-10:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00"
+      ],
+      "total_classes": 22,
+      "subjects_can_teach": [
+        "Engineering Mechanics",
+        "Structural Analysis",
+        "Concrete Technology",
+        "Workshop",
+        "Project",
+        "Digital Signal Processing",
+        "Cyber Security",
+        "Web Technologies"
+      ]
+    },
+    {
+      "name": "Dr. Powell",
+      "available_times": [
+        "9:00-10:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00"
+      ],
+      "total_classes": 25,
+      "subjects_can_teach": [
+        "VLSI Design",
+        "Embedded Systems",
+        "Microprocessors",
+        "Robotics",
+        "Automation",
+        "Advanced Robotics",
+        "Data Structures",
+        "Algorithms"
+      ]
+    },
+    {
+      "name": "Dr. Patterson",
+      "available_times": [
+        "9:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "2:00-3:00",
+        "3:00-4:00",
+        "4:00-5:00"
+      ],
+      "total_classes": 24,
+      "subjects_can_teach": [
+        "Cloud Computing",
+        "Cyber Security",
+        "Computer Networks",
+        "Information Systems",
+        "Database Systems",
+        "Theory of Computation",
+        "Signals and Systems",
+        "Data Mining"
       ]
     }
   ],
@@ -1070,7 +2261,8 @@
           "Programming Fundamentals": 3,
           "Basic Electrical Engineering": 2,
           "English Communication": 2,
-          "Workshop": 2
+          "Workshop": 2,
+          "Workshop Lab": 1
         },
         "Section B": {
           "Mathematics I": 4,
@@ -1079,7 +2271,8 @@
           "Programming Fundamentals": 3,
           "Basic Electrical Engineering": 2,
           "English Communication": 2,
-          "Workshop": 2
+          "Workshop": 2,
+          "Workshop Lab": 1
         },
         "Section C": {
           "Mathematics I": 4,
@@ -1088,7 +2281,8 @@
           "Programming Fundamentals": 3,
           "Basic Electrical Engineering": 2,
           "English Communication": 2,
-          "Workshop": 2
+          "Workshop": 2,
+          "Workshop Lab": 1
         }
       },
       "2nd": {
@@ -1099,7 +2293,9 @@
           "Data Structures": 3,
           "Chemistry": 2,
           "Engineering Graphics": 2,
-          "Environmental Studies": 2
+          "Environmental Studies": 2,
+          "Chemistry Lab": 2,
+          "C Lab": 3
         },
         "Section B": {
           "Mathematics II": 4,
@@ -1108,7 +2304,9 @@
           "Data Structures": 3,
           "Chemistry": 2,
           "Engineering Graphics": 2,
-          "Environmental Studies": 2
+          "Environmental Studies": 2,
+          "Chemistry Lab": 2,
+          "C Lab": 3
         },
         "Section C": {
           "Mathematics II": 4,
@@ -1117,7 +2315,9 @@
           "Data Structures": 3,
           "Chemistry": 2,
           "Engineering Graphics": 2,
-          "Environmental Studies": 2
+          "Environmental Studies": 2,
+          "Chemistry Lab": 2,
+          "C Lab": 3
         }
       },
       "3rd": {
@@ -1127,7 +2327,8 @@
           "Computer Organization": 3,
           "Data Structures and Algorithms": 4,
           "Database Systems": 3,
-          "Operating Systems": 3
+          "Operating Systems": 3,
+          "DBMS Lab": 2
         },
         "Section B": {
           "Discrete Mathematics": 3,
@@ -1135,7 +2336,8 @@
           "Computer Organization": 3,
           "Data Structures and Algorithms": 4,
           "Database Systems": 3,
-          "Operating Systems": 3
+          "Operating Systems": 3,
+          "DBMS Lab": 2
         },
         "Section C": {
           "Discrete Mathematics": 3,
@@ -1143,7 +2345,8 @@
           "Computer Organization": 3,
           "Data Structures and Algorithms": 4,
           "Database Systems": 3,
-          "Operating Systems": 3
+          "Operating Systems": 3,
+          "DBMS Lab": 2
         }
       },
       "4th": {
